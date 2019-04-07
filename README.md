@@ -34,4 +34,4 @@ More info can be seen in my chiness blog: <br>
 
 ![avatar](output/content_with_label_style_with_label_after_filter_maxpooling.jpg)
 
-![avatar](output/content_with_label_style_with_label_after_filter.jpg)
+![avatar](output/content_with_label_style_with_label_after_filter.png)
