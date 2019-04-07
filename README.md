@@ -32,3 +32,6 @@ Try Steps：<br>
 More info can be seen in my chiness blog: <br>
 &emsp;""
 
+![avatar](output/content_with_label_style_with_label_after_filter_maxpooling.jpg)
+
+![avatar](output/content_with_label_style_with_label_after_filter.jpg)
