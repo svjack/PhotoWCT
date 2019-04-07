@@ -21,10 +21,10 @@ Try Steps：<br>
  The merged conclusion can seen in path/to/simple2017/style_with_label.png or path/to/simple2017/content_with_label.png <br>
 
  &emsp; 4\ Train model: <br><br>
-     <font size=10><b1>python train_edit.py --relu-target relu3_1 --content-path path/to/train2017_with_label --batch-size 8 --feature-weight 1 --pixel-weight 1 --tv-weight 0.0 --learning-rate 1e-4 --max-iter 50000 --val-path path/to/val2017_with_label --checkpoint path/to/ckpt/<br></b1><br></font>
+     <font size=1><b1>python train_edit.py --relu-target relu3_1 --content-path path/to/train2017_with_label --batch-size 8 --feature-weight 1 --pixel-weight 1 --tv-weight 0.0 --learning-rate 1e-4 --max-iter 50000 --val-path path/to/val2017_with_label --checkpoint path/to/ckpt/<br></b1><br></font>
  
  &emsp; 5\ Evaluate the conclusion:<br><br>
-    <font size=10><b1>python stylize.py --input-checkpoint C:\Coding\Python\PhotoWCT\ckpt\model.ckpt-4601 --relu-targets relu3_1 --alpha 0.8 --style-path path/to/simple2017/style_with_label.png --content-path path/to/simple2017/content_with_label.png --out-path C:\Coding\Python\WCT_tf_final\output --passes 1/<br></b1><br></font>
+    <font size=1><b1>python stylize.py --input-checkpoint C:\Coding\Python\PhotoWCT\ckpt\model.ckpt-4601 --relu-targets relu3_1 --alpha 0.8 --style-path path/to/simple2017/style_with_label.png --content-path path/to/simple2017/content_with_label.png --out-path C:\Coding\Python\WCT_tf_final\output --passes 1/<br></b1><br></font>
     
  &emsp; 6\ Apply Haze Removal to conclusion, online in http://tools.pfchai.com/ or with the script located in https://github.com/pfchai/Haze-Removal/blob/master/HazeRemovalWidthGuided.py
 /<br>
